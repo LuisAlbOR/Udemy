@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        th,td{
+            border: 1px solid black;
+            border-radius: 10px;    /*el radio del borde*/
+            border-collapse: collapse; /*para que el borde interno se junte con el de la tabla*/
+            padding: 0 0 0 25px;    /*el espacio desde el lado izquierdo para centrar un poco mas el texto*/
+        }
+        /*
+        para el espacio entre bordes
+        */
+        table{
+            border-spacing: 10px;
+        }
+        /*
+        Para los pares
+        */
+        tr:nth-child(even){ 
+            background-color: aquamarine; 
+        }
+        /*
+        para los impares
+        */
+        tr:nth-child(odd){
+            background-color: rgb(223, 140, 226);
+        }
+    </style>
+</head>
+<body>
+    
+    <table style="width: 40%;"> <!-- Aqui se define que la tabla abarque el 40% de
+                                                toda la pagina con un  borde de 1-->
+        <tr style="height: 40px;">  <!--Aqui se hace que la primer fila tenga una ancho de 40 px-->
+            <th colspan="2">Nombre</th> <!--se indica que esta columna de titulo abarcara dos
+                                            columnas normales "td"-->
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Juan</td>   <!--se menciona que esta columna abarca 3 filas-->
+            <td rowspan="3">Perez</td>  <!--para que no haya ningun problema tambien se hace con
+                                            el apellido-->
+            <td>7.2</td>
+        </tr>
+        <tr>
+            <td>7.8</td>    <!--como el td se dice que abarcara 3 fila, se crean las calificaciones
+                                en otras dos filas-->
+        </tr>
+        <tr>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Laura</td>
+            <td rowspan="3">Gonzalez</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>9.7</td>
+        </tr>
+        <tr>
+            <td>7.8</td>
+        </tr>
+        <caption>Notas de los alumnos</caption> <!--se puede decir que es el titulo de la tabla-->
+    </table>    
+</body>
+</html>
