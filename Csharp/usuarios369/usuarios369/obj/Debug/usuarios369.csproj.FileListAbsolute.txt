@@ -1,0 +1,11 @@
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\bin\Debug\usuarios369.exe.config
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\bin\Debug\usuarios369.exe
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\bin\Debug\usuarios369.pdb
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.csproj.AssemblyReference.cache
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.csproj.SuggestedBindingRedirects.cache
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.Presentacion.Usuarios.resources
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.Properties.Resources.resources
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.csproj.GenerateResource.cache
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.csproj.CoreCompileInputs.cache
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.exe
+E:\proyectos\proyecto_Csharp\usuarios369\usuarios369\obj\Debug\usuarios369.pdb
