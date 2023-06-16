@@ -9,3 +9,8 @@ while numero<1:
 
 print(f"La raiz cuadrada es {math.sqrt(numero):.2}")
 
+A=['1','2','3']
+
+for a in A:
+    print(2*a)
+
