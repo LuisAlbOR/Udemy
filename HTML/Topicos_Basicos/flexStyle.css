@@ -1,0 +1,23 @@
+#contenido{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja{
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid #000000;
+    background: #FF0000;
+    color: #ffa600;
+}
+
+.caja:nth-child(3){
+    width: 200px;
+}
