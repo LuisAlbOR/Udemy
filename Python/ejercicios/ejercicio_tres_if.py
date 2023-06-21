@@ -15,3 +15,14 @@ que especificar el indice 0 que es el primero.
 Ahora para obtener el ultimo caracter de cualquier cadena, solo tienes
 que poner el indice -1 entre los parentesis
 '''
+
+#Manejo del for y el range por rangos dados por el usuario o por defecto
+for i in range(11):
+    print(i)
+    
+cifraUno = int(input("\n Ingrese una cifra"))
+cifraDos = int(inpu("\n Ingrese otra cifra"))
+
+for i in range(cifraUno,cifraDos+1):
+    print(i)
+    

@@ -9,3 +9,11 @@ while numero<1:
 
 print(f"La raiz cuadrada es {math.sqrt(numero):.2}")
 
+#Operación aritmetica
+
+numeroUno = 3
+numeroDos = 2
+numeroTres = 5
+potencia = 2
+
+print(((numeroUno + numeroDos)/(numeroDos*numeroTres))**potencia)
