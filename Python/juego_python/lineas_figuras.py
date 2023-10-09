@@ -5,6 +5,7 @@ pygame.init()
 
 ventana = pygame.display.set_mode((600,400))
 pygame.display.set_caption("Titulo de la ventana")
+#Colores
 colorFondo = (100,150,70)
 colorLinea = (255,120,0)
 colorCirculo = (200,109,20)
@@ -26,5 +27,5 @@ while True:
     for evento in pygame.event.get():
         if evento.type == QUIT:
             pygame.quit()
-            sys.exit
+            sys.exit()
         pygame.display.update()
