@@ -21,5 +21,6 @@ password.send_keys("ClashRoyale-1")
 time.sleep(2)
 boton = driver.find_element(By.ID,"sign-in")
 boton.click()
-time.sleep(10)
+time.sleep(1
+0)
 driver.close()
