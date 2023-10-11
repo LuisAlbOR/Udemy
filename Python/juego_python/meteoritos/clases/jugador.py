@@ -9,6 +9,7 @@ class Nave(pg.sprite.Sprite):
     def __init__(self):
         pg.sprite.Sprite.__init__(self)
         self.imagenNave = pg.image.load("imagenes/nave.png")
+        self.imagenNaveExplota = pg.image.load("imagenes/naveExplota.png")
 
         #Tomamos el rectangulo de la imagen nave
         self.rect = self.imagenNave.get_rect()
@@ -19,6 +20,10 @@ class Nave(pg.sprite.Sprite):
         self.velocidad = 20
         self.vida = True
         self.listaDisparo = []
+
+        #Sonidos de la nave
+        self.sonidoDisparo = pg.mixer.Sound("sonidos/disparo.aiff")
+
 
     #Metodo para verificar que la nave se mueve dentro de la ventana
     def mover(self):
@@ -33,7 +38,11 @@ class Nave(pg.sprite.Sprite):
         if self.vida == True:
             misil = disparo.Misil(x, y)
             self.listaDisparo.append(misil)
+            self.sonidoDisparo.play()
 
     #Metodo para visualizar la nave en la pantalla
     def visualizarJugador(self, superficie):
-        superficie.blit(self.imagenNave, self.rect)
+        if self.vida == True:
+            superficie.blit(self.imagenNave, self.rect)
+        else:
+            superficie.blit(self.imagenNaveExplota, self.rect)
